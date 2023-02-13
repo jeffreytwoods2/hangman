@@ -77,9 +77,6 @@ def main():
         for i in range(0, len(word)):
             current_state.append("_")
 
-        print(f"Choosing from {word_count} words...")
-        sleep(1)
-
         print(f"This word has {len(word)} letters.")
         print(GRAPHICS_LIST[0])
 
